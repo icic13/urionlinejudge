@@ -9,7 +9,7 @@ int main()
     cin>>nc;
     while(nc-->0)
     {
-       scanf("%d",&n);
+        scanf("%d",&n);
         vector<int> people(n);
         for(int i = 0; i<n; i++)
             scanf("%d",&people[i]);
